@@ -36,6 +36,10 @@
     <ApplicationIcon>icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="LM63, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\github\Aglaia\Aglaia\bin\Release\LM63.dll</HintPath>
+    </Reference>
     <Reference Include="Numeric, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\Library\Numeric\Numeric\bin\Release\Numeric.dll</HintPath>
@@ -97,10 +101,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Library\LM63\LM63\LM63.csproj">
-      <Project>{90d63d93-fc76-4fb2-8bb2-3412442ad272}</Project>
-      <Name>LM63</Name>
-    </ProjectReference>
     <ProjectReference Include="..\IlluView\IlluView.csproj">
       <Project>{19527bf2-2109-4356-ad00-1083fe068726}</Project>
       <Name>IlluView</Name>
