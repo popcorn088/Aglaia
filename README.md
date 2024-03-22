@@ -1,6 +1,6 @@
 # Aglaia v2.0.0
 AlgaiaはIESファイルのためのエディタです．
-![image](https://github.com/popcorn088/Aglaia/assets/51944267/dce4f647-c2ba-4409-98c4-6a511188e4ff)
+![image](https://github.com/popcorn088/Aglaia/assets/51944267/439809c9-fe0f-4c93-a250-eaef822ef922)
 
 ## インストール
 Setup.msiを実行します．
@@ -16,8 +16,6 @@ IESファイルの読み込みは2の方法があります．
 メニュー「File」->「Save」をクリックして名前を指定すると表示されている内容をIESファイルとして保存することができます．
 
 ### 扱える規格について
-![image](https://github.com/popcorn088/Aglaia/assets/51944267/a8518cc0-a5fc-43fc-a5e6-1c50acf8e98d)
-
 以下の規格を指定することができます．
 * LM63-1986
 * LM63-1991
@@ -28,15 +26,11 @@ IESファイルの読み込みは2の方法があります．
 ただし，動作が確認されているのはLM63-2002と2019のTypeCだけです．
 
 ### Keywordsセクションについて
-![image](https://github.com/popcorn088/Aglaia/assets/51944267/db0acf6e-6370-4b04-8ac8-8088ea89cb7d)
-
 KeywordsセクションではKeywordとその設定値を閲覧/編集することができます．
 keyword列では[]で囲まれている名前を，value列にはkeywordの内容が表示されます．
 右クリックのコンテキストメニューから追加や削除が可能です．
 
 ### Tiltセクションについて
-![image](https://github.com/popcorn088/Aglaia/assets/51944267/831a2c16-4d50-4d3b-8e29-b52a59842ef8)
-
 Tiltセクションを閲覧/編集することができます．
 Tiltセクションの設定は次の3つを選択することができます．
 * NONE
@@ -48,10 +42,6 @@ FILEを選択したのTILTファイルの位置は現在のファイルの相対
 追加をクリックすると1行追加されて角度と係数を編集することができるようになります．
 
 ### Dataセクションについて
-![image](https://github.com/popcorn088/Aglaia/assets/51944267/b4675ba4-5a18-468a-8462-9e68ced66c37)
-
-![image](https://github.com/popcorn088/Aglaia/assets/51944267/dd06a9e9-b3ab-4075-9900-7aa52b277a7a)
-
 Dataセクションは測光データ以外のデータを左下に，測光データは右上に表示されます．
 水平角度は行ヘッダーに，垂直角度は列ヘッダーに表示されます．
 
@@ -61,11 +51,6 @@ Dataセクションは測光データ以外のデータを左下に，測光デ�
 行や列を移動や交換することはできません．
 
 ### 直射照度分布
-
-![image](https://github.com/popcorn088/Aglaia/assets/51944267/95d768ba-d52d-4666-a3f9-2999ae4d99cd)
-
-![image](https://github.com/popcorn088/Aglaia/assets/51944267/89541a65-685c-4633-85a9-17765839ea40)
-
 「Illuminance」ボタンを押すと直射照度分布を表示します．
 この画像のシミュレーションは横(Width)1m，縦(Length)1mの床面に対し，中央に高さ(Height)1mの位置に光源を設定したものです．
 光源の向きはi軸を床面に対して垂直に設置し，j軸を右向き，k軸を下向きにしたものです．
