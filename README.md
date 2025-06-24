@@ -1,15 +1,13 @@
-# Aglaia v2.0.0
+# Aglaia v2.1.0
 AlgaiaはIESファイルのためのエディタです．
 ![image](https://github.com/popcorn088/Aglaia/assets/51944267/439809c9-fe0f-4c93-a250-eaef822ef922)
 
 ## インストール
-Setup.msiを実行します．
+Aglaia.Package_2.1.0.0_x86_x64.msixbundleを実行します．
 
 ## 使い方
 ### IESファイルの読み込み
-IESファイルの読み込みは2つの方法があります．
-* IESファイルをAglaiaフォームにドラッグ&ドロップする．
-* メニュー「File」->「Open」からIESファイルを指定する．
+メニュー「File」->「Open」からIESファイルを指定する．
 どちらもIESファイルがフォーマットを満たしていればIESファイルの内容が表示されます．
 
 ### IESファイルの保存
